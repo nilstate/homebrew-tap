@@ -4,5 +4,10 @@ Homebrew tap for Icey packages.
 
 ```bash
 brew tap nilstate/icey
+brew install icey
+```
+
+```bash
+brew tap nilstate/icey
 brew install icey-server
 ```
