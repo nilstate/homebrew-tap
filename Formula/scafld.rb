@@ -1,8 +1,8 @@
 class Scafld < Formula
   desc "Markdown-native task execution framework CLI"
   homepage "https://github.com/nilstate/scafld"
-  license "MIT"
   version "2.1.1"
+  license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
