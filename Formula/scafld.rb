@@ -1,26 +1,26 @@
 class Scafld < Formula
   desc "Markdown-native task execution framework CLI"
   homepage "https://github.com/nilstate/scafld"
-  version "2.3.11"
+  version "2.3.12"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/nilstate/scafld/releases/download/v2.3.11/scafld_2.3.11_darwin_arm64"
-      sha256 "8f994ccdea1b34d1634c41471831b27634ae919766ff5a07de7dea92cd60f165"
+      url "https://github.com/nilstate/scafld/releases/download/v2.3.12/scafld_2.3.12_darwin_arm64"
+      sha256 "32ecfbfa56ae6f42df9d158a30ab4e960ff046cfeb081501191dc6f32ed6b451"
     else
-      url "https://github.com/nilstate/scafld/releases/download/v2.3.11/scafld_2.3.11_darwin_amd64"
-      sha256 "2134112ff00ddea8290ba6aac79ebb2c6b84f43adc902b9e2791aa1ecb56fcbe"
+      url "https://github.com/nilstate/scafld/releases/download/v2.3.12/scafld_2.3.12_darwin_amd64"
+      sha256 "9955d971eb41151b306d3f8caac4a1e22c5e9a44a2b6bd0898eab8c96432ccd6"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/nilstate/scafld/releases/download/v2.3.11/scafld_2.3.11_linux_arm64"
-      sha256 "9fa0a61199aa3ffd67f688086037e41466cb874c8f2038f9ecb7ba0e47dc125e"
+      url "https://github.com/nilstate/scafld/releases/download/v2.3.12/scafld_2.3.12_linux_arm64"
+      sha256 "99d3d71b8b11577132e04398e1d3fe64ec7b1ec9d88cdd9eca0779e6480310d1"
     else
-      url "https://github.com/nilstate/scafld/releases/download/v2.3.11/scafld_2.3.11_linux_amd64"
-      sha256 "d789e1862a719c5bcf94924a35c016b30b2c3cdf532423ec5a36c850bcde88c5"
+      url "https://github.com/nilstate/scafld/releases/download/v2.3.12/scafld_2.3.12_linux_amd64"
+      sha256 "d85ce503c88773fba27694d902f900ff07a8fba3b3e0c2defe2d2fe4582c1b50"
     end
   end
 
