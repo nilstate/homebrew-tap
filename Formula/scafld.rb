@@ -1,6 +1,6 @@
 class Scafld < Formula
-  desc "Markdown-native task execution framework CLI"
-  homepage "https://github.com/nilstate/scafld"
+  desc "Deterministic protocol for multi-phase agent work"
+  homepage "https://0state.com/scafld"
   version "2.4.1"
   license "MIT"
 
