@@ -1,26 +1,26 @@
 class Scafld < Formula
   desc "Deterministic protocol for multi-phase agent work"
   homepage "https://0state.com/scafld"
-  version "2.5.2"
+  version "2.5.3"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/nilstate/scafld/releases/download/v2.5.2/scafld_2.5.2_darwin_arm64"
-      sha256 "2660df865a6f8eb484c0fd5646cb74701b0f6883ab040acda56dea29a2b90108"
+      url "https://github.com/nilstate/scafld/releases/download/v2.5.3/scafld_2.5.3_darwin_arm64"
+      sha256 "7d902066af862bcee03454cdb3fb1c210e5c4146ec9dc0a64ec396e362ec34e6"
     else
-      url "https://github.com/nilstate/scafld/releases/download/v2.5.2/scafld_2.5.2_darwin_amd64"
-      sha256 "4e7ec5a64a4db0cd9943aefeb2153729013932d391a015336f2bc5def37960a0"
+      url "https://github.com/nilstate/scafld/releases/download/v2.5.3/scafld_2.5.3_darwin_amd64"
+      sha256 "7535a2a41ddda44b2d2164512f00868d6bc0726ac2cf738e9e503449a5a7f04a"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/nilstate/scafld/releases/download/v2.5.2/scafld_2.5.2_linux_arm64"
-      sha256 "65e4ac2d1fef1cdf499de08d4592ec062c131c4bf88c56e88633ed533310ac22"
+      url "https://github.com/nilstate/scafld/releases/download/v2.5.3/scafld_2.5.3_linux_arm64"
+      sha256 "90923ca685c69a8fe4790839eeaccaaadf2570669e6fcdd722f2bec07e2eeae2"
     else
-      url "https://github.com/nilstate/scafld/releases/download/v2.5.2/scafld_2.5.2_linux_amd64"
-      sha256 "a8aa09d43c7a30032c0b50f9c3d8290e9fdee3d0cc7b06e715d760588df50abc"
+      url "https://github.com/nilstate/scafld/releases/download/v2.5.3/scafld_2.5.3_linux_amd64"
+      sha256 "63d30013ebc9bc224385a8ea9f36c6c5258ed52de9e343111f6c35ccf7bd0bc1"
     end
   end
 
